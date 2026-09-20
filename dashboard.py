@@ -82,7 +82,7 @@ def load_price(tk):
 @st.cache_data
 def load_sentiment(tk):
     n = pd.read_csv(NEWS / f"{tk}_news_scored.csv")
-    ts = pd.to_datetime(n["created_at"], format="ISO8601", utc=True).dt.tz_convert("US/Eastern")
+    ts = pd.to_datetime(n["created_at"], format="ISO8601", utc=True).dt.tz_convert("America/New_York")
     n["date"] = ts.dt.tz_localize(None).dt.normalize()
     return n.groupby("date")["sent_score"].agg(sentiment="mean", n="size")
 

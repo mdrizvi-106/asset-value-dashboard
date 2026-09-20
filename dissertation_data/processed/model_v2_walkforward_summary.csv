@@ -1,0 +1,9 @@
+model,features,RMSE,MAE,DirAcc
+Linear,v1 (11 feats),0.0166,0.0127,0.51
+Linear,v2 (15 feats),0.0167,0.0127,0.5047
+Naive0,v1 (11 feats),0.0165,0.0125,0.5314
+Naive0,v2 (15 feats),0.0165,0.0125,0.5314
+Ridge,v1 (11 feats),0.0166,0.0127,0.5087
+Ridge,v2 (15 feats),0.0167,0.0127,0.51
+XGB,v1 (11 feats),0.0165,0.0126,0.514
+XGB,v2 (15 feats),0.0164,0.0126,0.518

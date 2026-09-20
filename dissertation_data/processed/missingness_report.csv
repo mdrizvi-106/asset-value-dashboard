@@ -1,0 +1,8 @@
+Ticker,Class,Expected days,Actual rows,Missing dates (gaps),NaN rows (within data),% missing,Longest gap (days),Longest gap ends
+AAPL,Equity,1825,1760,65,0,3.56,1,2024-12-25
+MSFT,Equity,1825,1760,65,0,3.56,1,2024-12-25
+JPM,Equity,1825,1760,65,0,3.56,1,2024-12-25
+TSLA,Equity,1825,1760,65,0,3.56,1,2024-12-25
+XOM,Equity,1825,1760,65,0,3.56,1,2024-12-25
+EURUSD,Forex,1826,1825,1,0,0.05,1,2019-05-22
+GBPUSD,Forex,1826,1825,1,0,0.05,1,2019-05-22
